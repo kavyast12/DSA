@@ -19,16 +19,7 @@ class Solution {
         while(j<n2){
             arr.add(nums2[j++]);
         }
-        for(int i1=0;i1<nums1.length;i1++){
-            if(nums1[i1]<0){
-               nums1[i1]=0;
-            }
-        }
-        for(int i2=0;i2<nums2.length;i2++){
-            if(nums2[i2]<0){
-               nums2[i2]=0;
-            }
-        }
+    
         int n=n1+n2;
         if(n%2==1){
             return  arr.get(n/2);
